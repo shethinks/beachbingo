@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Baker's Beach Bingo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main id="game">
+    <img id="background" src="images/background.jpg" alt="Baker's Beach Bingo background">
+
+    <div id="leftDock" class="dock"></div>
+    <div id="rightDock" class="dock"></div>
+
+    <div id="cardArea">
+      <img id="currentCard" src="" alt="">
+    </div>
+
+    <div id="flipContainer">
+      <button id="flipButton">Flip</button>
+    </div>
+
+    <div id="restartContainer">
+      <button id="restartButton">Restart</button>
+    </div>
+
+    <div id="confirmBox" class="hidden">
+      <div id="confirmPanel">
+        <p>If you restart, you will lose previously flipped cards.</p>
+        <button id="cancelRestartButton">Cancel</button>
+        <button id="confirmRestartButton">Restart</button>
+      </div>
+    </div>
+  </main>
+  <audio id="bgMusic" loop>
+    <source src="audio/sleepwalk.mp3" type="audio/mpeg">
+  </audio>
+
+<script src="script.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
